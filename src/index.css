@@ -1,5 +1,5 @@
 :root {
-  --primary: #d81e5b;
+  --primary: #80DEEA;
   --secondary: #8c38ff;
   --dark: #131a26;
   --light: #eee;
@@ -9,15 +9,30 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
 }
 
 body {
   background-color: var(--light);
 }
 
+.title {
+  padding: 50px;
+  font-size: x-large;
+  color: var(--dark);
+  font-family: "Dela Gothic One";
+}
+
+.landing{
+  padding: 50px;
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--dark);
+  font-family: "Dela Gothic One";
+}
+
 .App {
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
