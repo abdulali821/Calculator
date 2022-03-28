@@ -3,9 +3,9 @@ import image from "./img/backImg.jpg";
 
 function App() {
   const [calc, setCalc] = useState("");
-  const [result, setResult] = useState("");
+  // const [result, setResult] = useState("");
 
-  const ops = ['/','*','-','+','.'];
+  // const ops = ['/','*','-','+','.'];
 
   const updateCal = value => {
     setCalc(calc+value);
@@ -15,7 +15,7 @@ function App() {
     const no=[];
     for (let i = 1; i < 10; i++) {
       no.push(
-        <button key={i}>{i}</button>
+        <button onClick={()=>{updateCal(i.toString())}} key={i}>{i}</button>
       );
     }
     return no;
@@ -31,7 +31,7 @@ function App() {
         </div>
       <div className="calculator">
         <div className="display">
-         {result? <span>(0) </span> : ""} {calc || "0"}
+         {0? <span>(0) </span> : ""} {calc || "0"}
         </div>
           <div className="operators">
             <button onClick={()=>{updateCal("/")}}>/</button>
