@@ -1,5 +1,5 @@
 :root {
-  --primary: #80DEEA;
+  --primary: #80deea;
   --secondary: #8c38ff;
   --dark: #131a26;
   --light: #eee;
@@ -22,7 +22,7 @@ body {
   font-family: "Dela Gothic One";
 }
 
-.landing{
+.landing {
   padding: 50px;
   font-weight: 100;
   font-size: 14px;

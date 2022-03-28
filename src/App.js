@@ -3,9 +3,9 @@ import image from "./img/backImg.jpg";
 
 function App() {
   const [calc, setCalc] = useState("");
-  // const [result, setResult] = useState("");
+  const [result, setResult] = useState("");
 
-  // const ops = ['/','*','-','+','.'];
+  const ops = ['/','*','-','+','.'];
 
   const updateCal = value => {
     setCalc(calc+value);
