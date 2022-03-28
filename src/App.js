@@ -22,7 +22,7 @@ function App() {
   }
   return (
     <div 
-    style={{ backgroundImage:`url(${image})` }}
+    style={{ backgroundImage: `url(${image})` ,backgroundRepeat: 'no-repeat' , backgroundSize:'cover'}}
     className="App">
       <div className="title">
         <h1>
